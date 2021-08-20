@@ -1,0 +1,270 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "description": "pending",
+      "url": "/index.html"
+    },
+    {
+      "title": "Early birds",
+      "description": "Early birds",
+      "url": "/early-bird.html"
+    },
+    {
+      "title": "Home",
+      "description": "Home",
+      "url": "/home.html"
+    },
+    {
+      "title": "Home",
+      "description": "Home-filled",
+      "url": "/home-filled.html"
+    },
+    {
+      "title": "Shop",
+      "description": "shop",
+      "url": "/shop.html"
+    },
+    {
+      "title": "Shop search",
+      "description": "shop search",
+      "url": "/shop-search.html"
+    },
+    {
+      "title": "Profile",
+      "description": "profile",
+      "url": "/profile.html"
+    },
+    {
+      "title": "Profile-privat",
+      "description": "Profile-privat",
+      "url": "/profile-privat.html"
+    },
+    {
+      "title": "Profile-shop",
+      "description": "profile-shop",
+      "url": "/profile-shop.html"
+    },
+    {
+      "title": "Profile-group",
+      "description": "Profile-group",
+      "url": "/profile-groups.html"
+    },
+    {
+      "title": "Individual-page",
+      "description": "Profile-group",
+      "url": "/individual-page.html"
+    },
+    {
+      "title": "Shopping-preferences",
+      "description": "shopping-preferences",
+      "url": "/shopping-preferences.html"
+    },
+    {
+      "title": "Addressbook",
+      "description": "addressbook",
+      "url": "/addressbook.html"
+    },
+    {
+      "title": "Addressbook full blank",
+      "description": "addressbook",
+      "url": "/addressbook-full-blank.html"
+    },
+    {
+      "title": "Addressbook billing blank",
+      "description": "addressbook",
+      "url": "/addressbook-billing-blank.html"
+    },
+    {
+      "title": "Addressbook  filled",
+      "description": "addressbook",
+      "url": "/addressbook-filled.html"
+    },
+    {
+      "title": "Groups-list",
+      "description": "groups",
+      "url": "/groups-list.html"
+    },
+    {
+      "title": "Wishlist",
+      "description": "groups",
+      "url": "/wishlist.html"
+    },
+    {
+      "title": "Wishlist Friends",
+      "description": "groups",
+      "url": "/wishlist-friends.html"
+    },
+    {
+      "title": "Groups menage",
+      "description": "groups",
+      "url": "/group-menage.html"
+    },
+    {
+      "title": "Groups create",
+      "description": "groups",
+      "url": "/group-create.html"
+    },
+    {
+      "title": "Settings",
+      "description": "settings",
+      "url": "/settings.html"
+    },
+    {
+      "title": "Coockies",
+      "description": "Coockies",
+      "url": "/coockies.html"
+    },
+    {
+      "title": "Store-home",
+      "description": "store-home",
+      "url": "/store-home.html"
+    },
+    {
+      "title": "Store view-project",
+      "description": "store-view-project",
+      "url": "/store-view-project.html"
+    },
+    {
+      "title": "Store-contact",
+      "description": "store-contact",
+      "url": "/store-contact.html"
+    },
+    {
+      "title": "Store-contact-edit",
+      "description": "store-contact-edit",
+      "url": "/store-contact-edit.html"
+    },
+    {
+      "title": "Store about",
+      "description": "store-about",
+      "url": "/store-about.html"
+    },
+    {
+      "title": "Store about-edit",
+      "description": "store-about-edit",
+      "url": "/store-about-edit.html"
+    },
+    {
+      "title": "Product-bargain",
+      "description": "product-bargain",
+      "url": "/product-bargain.html"
+    },
+    {
+      "title": "Product-description",
+      "description": "product-description",
+      "url": "/product-description.html"
+    },
+    {
+      "title": "Product-stock",
+      "description": "product-stock",
+      "url": "/product-stock.html"
+    },
+    {
+      "title": "Product-kit",
+      "description": "product-kit",
+      "url": "/product-kit.html"
+    },
+    {
+      "title": "Product-bundle",
+      "description": "product-bundle",
+      "url": "/product-bundle.html"
+    },
+    {
+      "title": "Shopping-on-splitcheck",
+      "description": "shopping-on-splitcheck",
+      "url": "/shopping-on-splitcheck.html"
+    },
+    {
+      "title": "business-page",
+      "description": "business-page",
+      "url": "/business-page.html"
+    },
+    {
+      "title": "messages-page",
+      "description": "messages-page",
+      "url": "/messages-page.html"
+    },
+    {
+      "title": "Orders",
+      "description": "orders",
+      "url": "/orders.html"
+    },
+    {
+      "title": "message-offer",
+      "description": "message-offer",
+      "url": "/message-offer.html"
+    },
+    {
+      "title": "bargain",
+      "description": "bargain",
+      "url": "/bargain.html"
+    },
+    {
+      "title": "Orders Dispute",
+      "description": "orders",
+      "url": "/orders-dispute.html"
+    },
+    {
+      "title": "Blog Post",
+      "description": "blog",
+      "url": "/blog-post.html"
+    },
+    {
+      "title": "Cart",
+      "description": "cart",
+      "url": "/cart.html"
+    },
+    {
+      "title": "Blog",
+      "description": "blog",
+      "url": "/blog.html"
+    },
+    {
+      "title": "Blog User",
+      "description": "blog",
+      "url": "/blog-user.html"
+    },
+    {
+      "title": " Blog Coupons",
+      "description": "blog",
+      "url": "/coupons.html"
+    },
+    {
+      "title": "Checkout",
+      "description": "Checkout",
+      "url": "/checkout.html"
+    },
+    {
+      "title": "Checkout Unfolded",
+      "description": "Checkout",
+      "url": "/checkout-unfolded.html"
+    },
+    {
+      "title": "Checkout Pick-up",
+      "description": "Checkout",
+      "url": "/checkout-pick-up.html"
+    },
+    {
+      "title": "Help Center",
+      "description": "help",
+      "url": "/help-center.html"
+    },
+    {
+      "title": "Help Cookies",
+      "description": "help",
+      "url": "/help-cookies.html"
+    },
+    {
+      "title": "Help Started",
+      "description": "help",
+      "url": "/help-started.html"
+    },
+    {
+      "title": "Help How it works",
+      "description": "help",
+      "url": "/how-it-works.html"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.checkout {
+  .total-box {
+    .earn {
+      @media (max-width: 383px) {
+        margin-top: 20px;
+      }
+    }
+  }
+  &__hide-mobile {
+    margin-left: 106px;
+  }
+  &__title {
+    margin-bottom: 16px !important;
+  }
+  .order-sent {
+    h4 {
+      font-size: 32px !important;
+    }
+    p {
+      text-align: center;
+      max-width: 480px;
+      color: #0b0212;
+      font-size: 18px !important;
+      font-weight: 400;
+    }
+    &__btn {
+      margin-top: 51px;
+      margin-bottom: 50px;
+      width: 100%;
+      justify-content: center;
+      a {
+        max-width: 240px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+    .modal-header {
+      padding-top: 10px;
+    }
+    .modal-dialog {
+      max-width: 640px !important;
+    }
+    .modal-content {
+      position: relative;
+      max-width: 640px;
+      height: 442px;
+      background-position: bottom;
+      background-repeat: no-repeat;
+    }
+  }
+}

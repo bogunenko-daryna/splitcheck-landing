@@ -1,0 +1,37 @@
+//Glob Utils
+@import "../../variables";
+@import "../../mixins";
+@import "../../bootstrap-utils";
+
+.modal.right.modal-share-product {
+  .modal-content {
+    .modal-body {
+      padding: 24px;
+      .form {
+        &__single--fluid,
+        &__other {
+          max-width: 315px;
+
+          @media (max-width: 550px) {
+            max-width: calc(100% - 15px);
+          }
+        }
+
+        .scroll-div {
+          width: 100%;
+        }
+
+        .btn {
+          margin-left: auto;
+
+          @media (max-width: 550px) {
+            max-width: 100%;
+          }
+        }
+        textarea {
+          height: 120px;
+        }
+      }
+    }
+  }
+}

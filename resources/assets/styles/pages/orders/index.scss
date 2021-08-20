@@ -1,0 +1,75 @@
+//Glob Utils
+@import "../../variables";
+@import "../../bootstrap-utils";
+
+@import "orders-box";
+@import "orders-cards";
+@import "orders-dispute";
+
+.orders {
+  overflow-x: hidden;
+  .other-links__link.this {
+    i {
+      background-image: url("images/orders/order-ship.png") !important;
+    }
+    span {
+      color: #f77d0e !important;
+    }
+  }
+  .section-content__title {
+    padding-left: 20px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: flex !important;
+    width: 32px;
+    height: 32px;
+    box-shadow: 2px 2px 4px 1px rgba(11, 2, 18, 0.08);
+    background-color: #fff;
+    border-radius: 50%;
+    top: 135px !important;
+  }
+  .swiper-button-prev {
+    left: 13px !important;
+  }
+  .swiper-button-next {
+    right: 13px !important;
+  }
+  .section-content__title {
+    @media (max-width: 575px) {
+      margin-left: 20px !important;
+    }
+  }
+  main {
+    margin-left: 7px;
+    @media (max-width: 991px) {
+      padding-top: 25px;
+      padding-bottom: 50px;
+      margin-left: 0;
+    }
+  }
+  &__bottom {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    .section-content__title {
+      margin-left: 20px;
+    }
+  }
+  &__slider {
+    position: relative;
+    box-shadow: 0 2px 4px 1px rgba(11, 2, 18, 0.08);
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 12px 57px 12px 57px;
+    max-width: 930px;
+    @media (max-width: 1260px) {
+      max-width: 800px;
+    }
+    @media (max-width: 1199px) {
+      max-width: 720px;
+    }
+    @media (max-width: 767px) {
+      padding: 12px 24px 30px 24px;
+    }
+  }
+}

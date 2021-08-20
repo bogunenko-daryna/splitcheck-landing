@@ -1,0 +1,51 @@
+//Glob Utils
+@import "../../variables";
+@import "../../mixins";
+@import "../../bootstrap-utils";
+
+.modal.right.modal-add-wishlist {
+  .modal-border {
+    max-width: none;
+  }
+  .modal-content {
+    .modal-body {
+      padding: 24px;
+      .form {
+        &__single--fluid,
+        &__other,
+        &__wrap {
+          max-width: 315px;
+
+          @media (max-width: 550px) {
+            max-width: calc(100% - 15px);
+          }
+        }
+        &__note {
+          padding-left: 0;
+        }
+
+        &__radio-wrap {
+          margin-bottom: 10px;
+          &:nth-of-type(4) {
+            margin-bottom: 32px;
+          }
+        }
+
+        .scroll-div {
+          width: 100%;
+        }
+
+        .btn {
+          margin-left: auto;
+
+          @media (max-width: 550px) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.flatpickr-input {
+  color: #46404c !important;
+}

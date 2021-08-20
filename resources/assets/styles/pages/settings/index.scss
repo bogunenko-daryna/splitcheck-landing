@@ -1,0 +1,41 @@
+//Glob Utils
+@import "../../variables";
+@import "../../bootstrap-utils";
+// Page Specific Components
+@import "tabs";
+@import "tabs-global";
+
+.settings {
+  .other-links__link {
+    svg {
+      margin-right: 15px;
+    }
+  }
+  .aside-left {
+    margin-top: 20px;
+    @media (max-width: 991px) {
+      margin-top: 0;
+    }
+    .nav-item {
+      text-align: left !important;
+    }
+  }
+
+  .other-links {
+    margin-top: 15px;
+  }
+
+  .select-before {
+    label {
+      margin-left: 10px;
+    }
+  }
+  .account-preferences__block {
+    .form__single {
+      max-width: 328px;
+    }
+    b {
+      margin-top: 25px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@import "variables";
+@import "bootstrap";
+
+/** Utilities & Helpers */
+@import "utilities/position";
+
+/** Import theme styles */
+@import "mixins";
+@import "type";
+
+/** Import everything from autoload */
+@import "autoload/lazy";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import "~swiper/swiper-bundle.min.css";
+@import "~select2/dist/css/select2.min.css";
+@import "~simple-scrollbar/simple-scrollbar.css";
+@import "~lightgallery/dist/css/lightgallery.min.css";
+@import "~flatpickr/dist/flatpickr.min.css";
+@import "~dropzone/dist/min/dropzone.min.css";
+@import "~cropperjs/dist/cropper.min.css";
+@import "~ion-rangeslider/css/ion.rangeSlider.css";
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+/**
+ * ==========
+ * Components
+ * ==========
+ * Components are reusable UI elements on pages, for example:
+ * - generic components can be buttons, navs, gallery slider
+ * - page-specific components such as testimonials
+ */
+//* main
+@import "common/fonts";
+@import "common/icons";
+@import "common/smile";
+@import "common/buttons";
+@import "common/global";
+@import "common/ie-fix";
+@import "common/form";
+
+//* plugins
+@import "components/plugins/custom-scroll";
+@import "components/plugins/flatpickr-custom";
+@import "components/plugins/select-custom";
+@import "components/plugins/light-gallery";
+@import "components/plugins/dropzone-custom";
+@import "components/plugins/ion-rangeslider-custom";
+
+//* shared components
+@import "components/options";
+@import "components/drop-photo";
+@import "components/theme-background";
+@import "components/list-green";
+@import "components/grid-gallery";
+@import "components/internal-card";
+@import "components/timeline";
+@import "components/card-timeline";
+@import "components/admin-menu";
+/**
+ * ==========
+ * Layouts
+ * ==========
+ * Layouts define the scaffold of the application
+ * such as header, footer
+ */
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/mobile-menu";
+@import "layouts/menu-bottom";

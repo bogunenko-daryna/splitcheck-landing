@@ -1,0 +1,113 @@
+//Glob Utils
+@import "../../variables";
+@import "../../bootstrap-utils";
+
+// Page Specific Components
+@import "profile-nav";
+@import "profile-face";
+@import "about-me";
+@import "connections";
+@import "gift";
+@import "wishlist-box";
+@import "individual";
+@import "messages";
+
+.individual {
+  @include media-breakpoint-down(sm) {
+    .main__card--bias {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+    }
+  }
+  .section-content {
+    @include media-breakpoint-down(md) {
+      &:first-of-type {
+        position: relative !important;
+        top: 0 !important;
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+.profile__bottom {
+  margin-top: 17px;
+  justify-content: space-between;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+}
+.profile {
+  .main-content {
+    padding-top: 18px;
+  }
+  &__list {
+    padding-left: 5px;
+    @media (max-width: 991px) {
+      padding-left: 0;
+    }
+  }
+  .main {
+    .section-content__title {
+      img {
+        margin-right: 9px;
+      }
+      span {
+        color: #35558f;
+        font-weight: 500;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-transform: none;
+      }
+    }
+  }
+  .header,
+  .footer {
+    .container {
+      @media (max-width: 767px) {
+        padding: 0 15px;
+      }
+    }
+  }
+  .container {
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+  }
+  .section-blur {
+    @media (max-width: 991px) {
+      padding-top: 73px;
+    }
+    @media (max-width: 767px) {
+      padding-top: 56px;
+    }
+  }
+  .main-content {
+    @media (max-width: 991px) {
+      padding-top: 0;
+    }
+  }
+  &__list {
+    @media (max-width: 575px) {
+      overflow-x: hidden;
+    }
+  }
+  .other-links {
+    margin-bottom: 45px;
+  }
+}
+.enable-box {
+  span {
+    color: #828282;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+    white-space: nowrap;
+  }
+  a {
+    margin-bottom: 18px;
+  }
+}

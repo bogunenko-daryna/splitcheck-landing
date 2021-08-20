@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> ../common/head }}
+</head>
+
+<body class="shopping-preferences home shop">
+    {{> ../common/mobile-menu }}
+    {{> ../common/mobile-menu-bottom }}
+    <div class="section-blur background-one" data-class="maze" id="background">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__left">
+                        <!-- <div class="header__burger">
+          <img src="images/icons/burger.svg" alt="">
+        </div> -->
+                        <a class="header__logo" href="/index.html">
+                            <img class="header__img-desktop" src="images/icons/w-logo.png" alt="logo">
+                            <img class="header__img-mobile" src="images/icons/logo-mobile.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <!-- form search -->
+                        <!-- add class: "search--active" -->
+                        <form action="#" id="search" class="search">
+
+                            <input type="search" name="search" class="search__input" placeholder="Search for something"
+                                id="search-input" autocomplete="off" />
+                            <button class="search__button" aria-label="search">
+                                <i class="icon icon-search"></i>
+                            </button>
+
+
+                            <div class="search__result">
+                                <ul class="search__result-list">
+                                    <li class="search__result-item d-flex align-items-center">
+                                        <p>
+                                            <b>pa</b>int
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header__right">
+                        <div class="head-links">
+                            <!-- head menu -->
+                            <ul class="head-links__list d-flex align-items-center list-unstyled mb-0">
+                                <li class="head-links__item d-flex align-items-center">
+                                    <a href="index.html" class="head-links__link position-relative">
+                                        <!-- add class "active" <i class="icon icon-home"></i> what would the icon change -->
+                                        <i class="icon icon-home"></i>
+                                    </a>
+                                </li>
+                                <li class="head-links__item d-flex align-items-center">
+                                    <a href="#" class="head-links__link position-relative">
+                                        <!-- add class "active" what would the icon change -->
+                                        <i class="icon icon-star"></i>
+                                    </a>
+                                </li>
+                                <li class="head-links__item d-flex align-items-center">
+                                    <a href="shop.html?param=val&data=shop-another"
+                                        class="head-links__link position-relative">
+                                        <!-- add class "active" what would the icon change -->
+                                        <i class="icon icon-offer"></i>
+                                    </a>
+                                </li>
+                                <li class="head-links__item d-flex align-items-center">
+                                    <a href="#" data-toggle="modal" data-target="#cart"
+                                        class="head-links__link position-relative">
+                                        <!-- add class "active" what would the icon change -->
+                                        <i class="icon icon-cart"></i>
+                                    </a>
+                                </li>
+                                <li class="head-links__item d-flex align-items-center">
+                                    <a href="#" data-toggle="modal" data-target="#message-overlay"
+                                        class="head-links__link position-relative">
+                                        <!-- add class "active" what would the icon change -->
+                                        <i class="icon icon-head-mail"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /head menu -->
+                        </div>
+                        <div class="header__user">
+                            <a href="#user-profile-menu" data-toggle="modal" data-target="#user-profile-menu"
+                                class="user-avatar user-avatar--no-img position-relative d-flex align-items-center justify-content-center overflow-hidden">
+                                <img class="user-avatar__img" src="" alt="avatar">
+                                <span class="user-avatar__symbol">AD</span>
+                            </a>
+                            <a href="#" class="mobile-link-arrow">
+                                <i class="icon icon-arrow"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="main-content position-relative d-flex align-items-start justify-content-start">
+
+                <aside class="aside-left">
+                    <div class="scroll-div">
+                        <section class="section-content">
+                            <span class="section-content__title position-relative d-flex align-items-center">Other
+                                links</span>
+
+                            <div class="other-links">
+                                <ul class="other-links__list d-flex flex-column list-unstyled mb-0">
+                                    <li class="other-links__item">
+                                        <a href="#" class="other-links__link position-relative">
+                                            <!-- add class "active" <i class="icon icon-gift"></i> what would the icon change -->
+                                            <i class="icon icon-gift active"></i>
+                                            <span>Spoil yourself</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#" class="other-links__link position-relative">
+                                            <!-- add class "active" what would the icon change -->
+                                            <i class="icon icon-social-media"></i>
+                                            <span>Open public goss</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <!-- add class "active" what would the icon change -->
+                                            <i class="icon icon-discount"></i>
+                                            <span>Snatch a bargain</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <!-- add class "active" what would the icon change -->
+                                            <i class="icon icon-mail"></i>
+                                            <span>Shared orders</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <!-- add class "active" what would the icon change -->
+                                            <i class="icon icon-group"></i>
+                                            <span>My groups</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <!-- add class "active" what would the icon change -->
+                                            <i class="icon icon-heart"></i>
+                                            <span>My family</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <i class="icon icon-notification"></i>
+                                            <!-- add class "active" what would the icon change -->
+                                            <span>Alerts</span>
+                                        </a>
+                                    </li>
+                                    <li class="other-links__item active-page">
+                                        <a href="#"
+                                            class="other-links__link position-relative d-flex align-items-center">
+                                            <i class="icon icon-setting"></i>
+                                            <!-- add class "active" what would the icon change -->
+                                            <span>Shopping preferences</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                    </div>
+                </aside>
+                <div class="shopping-preferences__content form size-container">
+                    <div class="shopping-preferences__list">
+                        <div class="shopping-preferences__top">
+                            <h3>My gift shopping preferences</h5>
+                                <small>All fields are optional</small>
+                        </div>
+                        <div class="shopping-preferences__text">
+
+                            <p>Numerous scientific studies show that <b>shopping for gifts</b> is not as <b>simple as it
+                                    seems</b>. In
+                                involves <b>several mental processes</b> in your brain that lead to stress, anxiety and
+                                fear
+                                build
+                                up! </p>
+                            <p>At SplitChek, we want you to relieve your family and friends from this stress by sharing
+                                with
+                                them what kind of things you would like them to buy you.</p>
+                        </div>
+                        <div class="shopping-preferences__block">
+                            <div class="form__single form__single--select form__single--select-tag form__single--fluid">
+                                <label class="form__label">Which brands do you like?</label>
+                                <select class="form__input" data-toggle="select-tag" multiple="multiple">
+                                    <option value="user-1">Shop</option>
+                                    <option value="user-2">Mall</option>
+                                </select>
+                            </div>
+                            <div
+                                class="select-before form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default" data-toggle="select">
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="shopping-preferences__card">
+                            <div
+                                class="form__single form__single--select form__single--select-user form__single--fluid">
+                                <label class="form__label">Which stores do you normally shop from?</label>
+                                <div
+                                    class="form__single form__single--select form__single--select-tag form__single--fluid">
+                                    <select class="form__input" data-toggle="select-tag" multiple="multiple">
+                                        <option value="user-1">Shop</option>
+                                        <option value="user-2">Mall</option>
+                                    </select>
+                                </div>
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+
+                            <div
+                                class="select-before form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="1" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form__checkbox-wrap form__checkbox-wrap--custom form__checkbox-position">
+                                <input type="checkbox" id="checkbox-search-parameters-1" class="form__checkbox-orange"
+                                    name="search-parameters">
+                                <label for="checkbox-search-parameters-1">
+                                    Allow stores on my list contact me with free samples or surveys
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shopping-preferences__list">
+                        <h5>Gift categories</h5>
+                        <div class="d-flex flex-column">
+                            <small>You usually buy from … Body Care</small>
+                            <div class="d-flex shopping-preferences__ul-1">
+                                <div class="d-flex flex-column">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-2"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-2">
+                                                Jewelery and Accessories
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-3"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-3">
+                                                Beauty Products
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-4"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-4">
+                                                Essential Oils
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-5"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-5">
+                                                Clothing
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="d-flex flex-column shopping-preferences__right">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-6"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-6">
+                                                Makeup and Skincare
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-7"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-7">
+                                                Bath and Body
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-8"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-8">
+                                                Hair Care
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-9"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-9">
+                                                Fashion
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <small>… New Mothers</small>
+                            <div class="d-flex shopping-preferences__ul-2">
+                                <div class="d-flex flex-column">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-11"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-11">
+                                                Baby Clothing and Accesories
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-12"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-12">
+                                                Baby and Toddler Toys
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-13"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-13">
+                                                Baby Care
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-14"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-14">
+                                                Nursery
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="d-flex flex-column shopping-preferences__right">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-15"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-15">
+                                                Belly Bands & Supports
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-16"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-16">
+                                                Nursing and Feedign
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-17"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-17">
+                                                Maternity Clothing
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-18"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-18">
+                                                Nappy Changing
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="d-flex flex-column">
+                            <small>… Household</small>
+                            <div class="d-flex shopping-preferences__ul-3">
+                                <div class="d-flex flex-column">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-19"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-19">
+                                                Health, Household & Personal Care
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-20"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-20">
+                                                Kitchen Tools and Gadgets
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-21"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-21">
+                                                Kitchen Storage
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-22"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-22">
+                                                Cleanig Supplies
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="d-flex flex-column shopping-preferences__right">
+                                    <ul class="shopping-preferences__block">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-23"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-23">
+                                                Household Appliance
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-24"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-24">
+                                                Kitchen and Dining
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-25"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-25">
+                                                Grocery Shopping
+                                            </label>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <small>… Other</small>
+                            <div class="d-flex shopping-preferences__ul-4">
+                                <div class="d-flex flex-column">
+                                    <ul class="shopping-preferences__card">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-27"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-27">
+                                                Organic Products
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-28"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-28">
+                                                Sports & Training
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-29"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-29">
+                                                Gardering Tools
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-30"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-30">
+                                                Bags
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="d-flex flex-column shopping-preferences__right">
+                                    <ul class="shopping-preferences__card">
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-31"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-31">
+                                                Supplements
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-32"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-32">
+                                                Insurance
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-33"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-33">
+                                                Furniture
+                                            </label>
+                                        </li>
+
+                                        <li class="form__checkbox-wrap form__checkbox-wrap--custom ">
+                                            <input type="checkbox" id="checkbox-search-parameters-34"
+                                                class="form__checkbox-orange" name="search-parameters">
+                                            <label for="checkbox-search-parameters-34">
+                                                Vitamins
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="shopping-preferences__list">
+                        <div class="shopping-preferences__top">
+                            <h5>Food and diet</h5>
+
+                        </div>
+
+                        <div class="shopping-preferences__block">
+                            <div class="d-flex flex-column ">
+                                <label class="form__label">Which food do you like?</label>
+                                <input class="form__input" placeholder="Start typing" type="text">
+
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+                            <div
+                                class="select-before form__single form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default" data-toggle="select"
+                                        data-select2-id="3" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="shopping-preferences__card">
+                            <div
+                                class="form__single form__single--select form__single--select-user form__single--fluid">
+                                <label class="form__label">Which diet plants would you like as a gift?</label>
+                                <div
+                                    class="form__single form__single--select form__single--select-tag form__single--fluid">
+                                    <select class="form__input" data-toggle="select-tag" multiple="multiple">
+                                        <option value="user-1">Shop</option>
+                                        <option value="user-2">Mall</option>
+                                    </select>
+                                </div>
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+
+                            <div
+                                class="select-before  form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="4" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Family and friends</option>
+                                        <option value="#">Everyone</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="shopping-preferences__list">
+                        <div class="shopping-preferences__top">
+                            <h5>Meaningful gifts</h5>
+
+                        </div>
+                        <div class="shopping-preferences__text">
+                            <p>Statistic show that many struggles to give meaningful gifts on the early dating romance.
+                                They don’t know if it is too much, to little or if you will like it. So please help them
+                                by giving them clues about you.</p>
+                        </div>
+
+                        <div class="shopping-preferences__block">
+                            <div class="d-flex flex-column ">
+                                <label class="form__label">If on early dating, what gifts would you like to
+                                    receive?</label>
+                                <input class="form__input" placeholder="Start typing" type="text">
+
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+                            <div
+                                class="select-before form__single form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="5" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="shopping-preferences__block">
+                            <div class="form__single--select form__single--select-user form__single--fluid">
+                                <label class="form__label">Which stores do you normally shop from?</label>
+                                <div
+                                    class="form__single form__single--select form__single--select-tag form__single--fluid">
+                                    <select class="form__input" data-toggle="select-tag" multiple="multiple">
+                                        <option value="user-1">Shop</option>
+                                        <option value="user-2">Mall</option>
+                                    </select>
+                                </div>
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+
+                            <div
+                                class="select-before form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="6" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Family and friends</option>
+                                        <option value="#">Everyone</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="shopping-preferences__card">
+                            <div class="d-flex flex-column ">
+                                <label class="form__label">What not to buy me as a gift?</label>
+                                <input class="form__input" placeholder="Start typing" type="text">
+
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+
+                            <div
+                                class="select-before form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="6" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Family and friends</option>
+                                        <option value="#">Everyone</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="shopping-preferences__list">
+                        <div class="shopping-preferences__top">
+                            <h5>hobbies and other</h5>
+
+                        </div>
+
+
+                        <div class="shopping-preferences__block mb-45">
+                            <div class="d-flex flex-column ">
+                                <label class="form__label">What are your hobbies and interests?</label>
+                                <input class="form__input" placeholder="Start typing" type="text">
+
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+                            <div
+                                class="select-before form__single form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="7" tabindex="-1" aria-hidden="true">
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="shopping-preferences__card">
+                            <div class="d-flex flex-column ">
+                                <label class="form__label">Anything else that you want others to know about you?</label>
+                                <div class="w-100 max-text" data-maxlength="400">
+                                    <textarea placeholder="Write something"></textarea>
+                                    <div class="count"><span>0</span>/<span>400</span></div>
+                                </div>
+
+                                {{!-- <input type="text" class="form__input" required=""> --}}
+                                <span class="form__symbol-error"></span>
+                            </div>
+
+                            <div
+                                class="select-before form__single--select form__single--select-default form__single--fluid">
+                                <label class="form__label">Who can see this?</label>
+                                <div class="select-before">
+                                    <select class="form__select form__select--default select2-hidden-accessible"
+                                        data-toggle="select" data-select2-id="8" tabindex="-1" aria-hidden="true">
+
+                                        <option value="#">Everyone</option>
+                                        <option value="#">Family and friends</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="shopping-preferences__bottom">
+                        <a href="#" class="btn-border btn-border--two">Save and Shop</a>
+                        <a href="#" class="btn btn-blue">Save</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{> ../common/footer }}
+    {{> ../common/modals/user-profile-menu }}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+@import "../../variables";
+@import "../../mixins";
+@import "../../bootstrap-utils";
+
+.modal-invite {
+  &__title-span {
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.86px;
+    text-transform: uppercase;
+    color: #335491;
+    font-weight: 500;
+  }
+  .modal-content {
+    > .modal-body {
+      @media (max-width: 575px) {
+        padding: 15px !important;
+        overflow-x: hidden;
+      }
+      .modal-invite__block {
+        @media (max-width: 575px) {
+          max-width: 94%;
+        }
+      }
+    }
+  }
+
+  .max-text {
+    position: relative;
+    textarea {
+      padding-bottom: 90px !important;
+    }
+    .count {
+      position: absolute;
+      right: 14px;
+      bottom: 15px;
+      color: #0b0212;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .members__block {
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+
+  .ss-container .ss-scroll {
+    margin-left: 16px !important;
+  }
+  .scroll-margin {
+    margin-top: 30px;
+    width: calc(100% + 7px) !important;
+    .ss-content {
+      width: calc(100% + 7px) !important;
+    }
+  }
+  .scroll-div {
+    margin-right: 0;
+    margin-left: 0;
+    .btn-blue {
+      max-width: 80px;
+    }
+    ul {
+      padding-top: 10px;
+      li {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .modal-content {
+    @media (max-width: 575px) {
+      background-color: #fffcf9;
+    }
+  }
+  .btn-opacity {
+    max-width: 80px;
+    opacity: 0.5;
+    @media (max-width: 575px) {
+      max-width: 100%;
+    }
+  }
+  .text-gray {
+    color: #828282;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .active-arrow {
+    &:after {
+      transform: rotate(-180deg);
+    }
+  }
+  .groups__toggle {
+    margin-top: 22px;
+    position: relative;
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:after {
+      transition: 0.4s;
+      content: url("images/groups/arrow-down.svg");
+      position: absolute;
+      right: 0;
+    }
+  }
+  .members__form {
+    margin-bottom: 24px;
+    max-width: 288px;
+
+    @media (max-width: 575px) {
+      max-width: 100% !important;
+    }
+
+    .btn-blue {
+      max-width: 288px !important;
+      background-color: #234179;
+      @media (max-width: 575px) {
+        max-width: 100% !important;
+      }
+      img {
+        margin-right: 20px;
+      }
+    }
+  }
+  &__block {
+    max-width: 288px;
+
+    @media (max-width: 575px) {
+      max-width: 100%;
+    }
+  }
+  small {
+    color: #0b0212;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  &__figure {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #f8f9fb;
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+}
